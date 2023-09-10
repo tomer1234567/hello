@@ -3,11 +3,11 @@ version: '3.9'
 services:
   kuma2:
     container_name: hthf
-    image: hello-world
+    image: louislam/uptime-kuma
     restart: always
     volumes:
       - ./uptime-kuma-data:/app/data
     environment:
       DB_CONN: sqlite
     ports:
-      - 5050:5050
+      - 2002:3002
