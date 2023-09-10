@@ -2,8 +2,8 @@ version: '3.9'
 
 services:
   kuma2:
-    container_name: kuma2
-    image: louislam/uptime-kuma
+    container_name: hthf
+    image: hello-world
     restart: always
     volumes:
       - ./uptime-kuma-data:/app/data
