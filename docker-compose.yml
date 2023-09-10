@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  gdgdg:
+    container_name: sfffs
+    image: hello-world
+    restart: always
+    volumes:
+     
+    environment:
+      
+    ports:
+      - 8080:8080
