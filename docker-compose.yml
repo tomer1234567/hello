@@ -10,4 +10,4 @@ services:
     environment:
       DB_CONN: sqlite
     ports:
-      - 2001:3001
+      - 5050:5050
