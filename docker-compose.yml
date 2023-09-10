@@ -5,7 +5,6 @@ services:
     container_name: sfffs
     image: hello-world
     restart: always
-    volumes:
      
     environment:
       
