@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  kuma2:
+    container_name: kuma2
+    image: louislam/uptime-kuma
+    restart: always
+    volumes:
+      - ./uptime-kuma-data:/app/data
+    environment:
+      DB_CONN: sqlite
+    ports:
+      - 2001:3001
